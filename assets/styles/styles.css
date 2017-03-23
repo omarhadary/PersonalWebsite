@@ -1,0 +1,176 @@
+body {
+    background: url("../img/background.jpg") no-repeat center center fixed; 
+    /*background-color: #cccccc;*/
+    background-size: cover;
+    height:100%;
+    width:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.transparent {
+    /*background-color: rgba(0,0,0,0.8) !important;*/
+}
+
+nav .brand-logo {
+    /*color: black;*/
+    margin-left: 1% 
+}
+
+nav ul a {
+    /*color: black;*/
+}
+
+nav .nav-wrapper {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    opacity: 1;
+
+    /*margin: 0 auto;*/
+    width: 100%;
+    /*min-width: 640px;*/
+    /*height: 50px;*/
+    /*border-bottom: 1px solid #ccc;*/
+    /*position: fixed;*/
+    z-index: 100000;
+
+}
+
+.landing {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    font-size: 325%;
+    text-align: center;
+    opacity: 1;
+}
+
+.headShot {
+    length: 100%;
+    width: 100%;
+}
+
+.about-line {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    font-size: 135%;
+    opacity: 1;
+}
+
+.portfolio-section, .contact-section {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    font-size: 325%;
+    opacity: 1;
+    text-align: center;
+}
+
+.contact-section {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    font-size: 180%;
+    opacity: 1;
+    text-align: center;
+}
+
+#portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
+    height:100%;
+    width:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#portfolio-1 {
+    background: url("../img/GoFridge.jpg") center; 
+    background-size: cover;
+
+}
+
+#portfolio-2 {
+    background: url("../img/GoFridge.jpg") center; 
+    background-size: cover;
+
+}
+
+#portfolio-3 {
+    background: url("../img/LatestNews.png") center; 
+    background-size: cover;
+
+}
+
+#portfolio-4 {
+    background: url("../img/CityTrek.png") center; 
+    background-size: cover;
+
+}
+
+#portfolio-5 {
+    background: url("../img/LIRI.png") center; 
+    background-size: cover;
+
+}
+
+#portfolio-6 {
+    background: url("../img/CrystalsCollector.png") center; 
+    background-size: cover;
+
+}
+
+.dark-bg:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    height: 100%;
+    padding: 5px;
+    opacity: 1;
+    text-align: center;
+    transition: 1s;
+}
+
+.dark-bg {
+    height: 100%;
+    padding: 5px;
+    opacity: 0;
+    text-align: center;
+    transition: 1s;
+}
+
+img.email, img.linkedin, img.github {
+    height: 50%;
+    width: 50%;
+}
+
+/* ----------- Desktop Devices ----------- */
+@media screen 
+  and (min-width: 993px) 
+  and (max-width: 1900px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    #portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
+        font-size: 113%;
+        height: 345px;
+    }
+}
+
+/* ----------- Tablet Devices ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 601px) 
+  and (max-width: 992px) 
+  and (-webkit-min-device-pixel-ratio: 1) {  
+    #portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
+        font-size: 85%;
+        height: 250px;
+    }    
+}
+
+/* ----------- Mobile Devices ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {   
+    #portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
+        font-size: 45%;
+        height: 150px;
+    }     
+}
