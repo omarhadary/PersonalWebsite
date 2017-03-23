@@ -23,7 +23,7 @@ nav ul a {
 }
 
 nav .nav-wrapper {
-    background-color: rgba(0,0,0,0.3);
+    background-color: black;
     color: white;
     opacity: 1;
 
@@ -57,7 +57,7 @@ nav .nav-wrapper {
     opacity: 1;
 }
 
-.portfolio-section, .contact-section {
+.portfolio-section {
     background-color: rgba(0,0,0,0.3);
     color: white;
     font-size: 325%;
@@ -66,11 +66,15 @@ nav .nav-wrapper {
 }
 
 .contact-section {
-    background-color: rgba(0,0,0,0.3);
+    background-color: black;
     color: white;
     font-size: 180%;
     opacity: 1;
     text-align: center;
+}
+
+.modal-content {
+    background-color: rgba(0,0,0,0.3);
 }
 
 #portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
