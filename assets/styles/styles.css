@@ -44,19 +44,6 @@ nav .nav-wrapper {
 	opacity: 1;
 	text-align: center;
 }
-.contact-section {
-	background-color: black;
-	color: white;
-	font-size: 180%;
-	opacity: 1;
-	text-align: center;
-}
-#modal1 {
-    width: 30em;
-}
-.modal-content {
-	background-color: rgba(0, 0, 0, 0.3);
-}
 #portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
 	height: 100%;
 	width: 100%;
@@ -65,7 +52,7 @@ nav .nav-wrapper {
 	-o-background-size: cover;
 }
 #portfolio-1 {
-	background: url("../img/GoFridge.jpg") center;
+	background: url("../img/tukio.png") center;
 	background-size: cover;
 }
 #portfolio-2 {
@@ -104,6 +91,20 @@ nav .nav-wrapper {
 	text-align: center;
 	transition: 1s;
 }
+.contact-section {
+	background-color: black;
+	color: white;
+	font-size: 180%;
+	opacity: 1;
+	text-align: center;
+}
+#contact-modal {
+    width: 30em;
+}
+.modal-content {
+	background-color: rgba(0, 0, 0, 0.6);
+	opacity: 1;
+}
 img.email, img.linkedin, img.github {
 	height: 50%;
 	width: 50%;
@@ -135,9 +136,16 @@ img.email, img.linkedin, img.github {
 
 /* Portrait and Landscape */
 
-@media only screen and (min-width: 375px) and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width: 175px) and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1) {
 	#portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
 		font-size: 45%;
 		height: 150px;
+	}
+	#contact-modal {
+    width: 20em;
+	}
+	img.email, img.linkedin, img.github {
+	height: 50%;
+	width: 50%;
 	}
 }
