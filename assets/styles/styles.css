@@ -1,6 +1,7 @@
 body {
 	background: url("../img/background.jpg") no-repeat center center fixed;
 	background-size: cover;
+	font-family: 'Source Sans Pro', sans-serif;
 	height: 100%;
 	width: 100%;
 	-webkit-background-size: cover;
@@ -99,15 +100,18 @@ nav .nav-wrapper {
 	text-align: center;
 }
 #contact-modal {
-    width: 30em;
+    width: 25em;
 }
 .modal-content {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: #a9aaa5;
 	opacity: 1;
 }
 img.email, img.linkedin, img.github {
-	height: 50%;
-	width: 50%;
+	height: 70%;
+	width: 70%;
+}
+a {
+	color: white;
 }
 
 /* ----------- Desktop Devices ----------- */
@@ -141,11 +145,11 @@ img.email, img.linkedin, img.github {
 		font-size: 45%;
 		height: 180px;
 	}
-	#contact-modal {
+	/*#contact-modal {
     width: 20em;
-	}
-	img.email, img.linkedin, img.github {
+	}*/
+	/*img.email, img.linkedin, img.github {
 	height: 50%;
 	width: 50%;
-	}
+	}*/
 }
