@@ -116,10 +116,10 @@ a {
 
 /* ----------- Desktop Devices ----------- */
 
-@media screen and (min-width: 993px) and (max-width: 1900px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-width: 993px) and (max-width: 2590px) and (-webkit-min-device-pixel-ratio: 1) {
 	#portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
 		font-size: 113%;
-		height: 345px;
+		height: 335px;
 	}
 }
 
@@ -131,7 +131,7 @@ a {
 @media only screen and (min-width: 601px) and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {
 	#portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
 		font-size: 85%;
-		height: 250px;
+		height: 240px;
 	}
 }
 
@@ -143,7 +143,7 @@ a {
 @media only screen and (min-width: 175px) and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1) {
 	#portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
 		font-size: 45%;
-		height: 180px;
+		height: 160px;
 	}
 	/*#contact-modal {
     width: 20em;
