@@ -11,6 +11,9 @@ body {
 nav .brand-logo {
 	margin-left: 1%
 }
+nav .button-collapse i {
+	line-height: 20px
+}
 nav .nav-wrapper {
 	background-color: black;
 	color: white;
