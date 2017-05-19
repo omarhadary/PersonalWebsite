@@ -26,12 +26,20 @@ nav .nav-wrapper {
 .headShot {
 	background: url("../img/headShot.jpg") center;
 	background-size: cover;
+	border: solid 1px #EFEFEF;
 	height: 100%;
+	/*padding: 5px;*/
 	width: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 }
+/*a:hover img.headShot {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+}*/
 .about-line {
 	background-color: rgba(0, 0, 0, 0.3);
 	color: white;
@@ -142,7 +150,7 @@ a {
 
 @media only screen and (min-width: 175px) and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1) {
 	#portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
-		font-size: 45%;
+		font-size: 70%;
 		height: 180px;
 	}
 	/*#contact-modal {
