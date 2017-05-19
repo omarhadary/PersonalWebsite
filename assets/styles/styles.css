@@ -11,10 +11,20 @@ body {
 nav .brand-logo {
 	margin-left: 1%
 }
+nav .button-collapse i {
+	line-height: 20px
+}
 nav .nav-wrapper {
 	background-color: black;
 	color: white;
 	opacity: 1;
+}
+.side-nav {
+	background-color: rgba(0, 0, 0, 0.8);
+	opacity: 1;
+}
+.side-nav a {
+	color: white;
 }
 .landing {
 	background-color: rgba(0, 0, 0, 0.3);
@@ -101,7 +111,7 @@ nav .nav-wrapper {
 	transition: 1s;
 }
 .contact-section {
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.8);
 	color: white;
 	font-size: 180%;
 	opacity: 1;
@@ -111,12 +121,15 @@ nav .nav-wrapper {
     width: 25em;
 }
 .modal-content {
-	background-color: #a9aaa5;
+	background-color: rgba(0, 0, 0, 0.8);
 	opacity: 1;
 }
 img.email, img.linkedin, img.github {
 	height: 70%;
 	width: 70%;
+}
+.fa-2x {
+    font-size: 3em;
 }
 a {
 	color: white;
@@ -124,10 +137,10 @@ a {
 
 /* ----------- Desktop Devices ----------- */
 
-@media screen and (min-width: 993px) and (max-width: 1900px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-width: 993px) and (max-width: 2590px) and (-webkit-min-device-pixel-ratio: 1) {
 	#portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
-		font-size: 113%;
-		height: 345px;
+		font-size: 105%;
+		height: 335px;
 	}
 }
 
@@ -139,7 +152,7 @@ a {
 @media only screen and (min-width: 601px) and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {
 	#portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
 		font-size: 85%;
-		height: 250px;
+		height: 240px;
 	}
 }
 
@@ -150,8 +163,15 @@ a {
 
 @media only screen and (min-width: 175px) and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1) {
 	#portfolio-1, #portfolio-2, #portfolio-3, #portfolio-4, #portfolio-5, #portfolio-6 {
-		font-size: 70%;
+		font-size: 65%;
 		height: 180px;
+	}
+	#contact-modal {
+		width: 20em;
+	}
+	.fa-2x {
+    font-size: 2.5em;
+	margin-left: -.2em;
 	}
 	/*#contact-modal {
     width: 20em;

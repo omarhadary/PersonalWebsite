@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Omar Hadary</title>
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<link href="./assets/styles/styles.css" rel="stylesheet">
+	<title>Omar Hadary</title>
 </head>
 <body>
 	<div class="navbar-fixed">
 		<nav class="transparent">
 			<div class="nav-wrapper">
-				<a class="brand-logo" href="#top">Omar Hadary</a> <a class="button-collapse" data-activates="mobile-demo" href="#"><i class="fa fa-bars"></i></a>
+				<a class="brand-logo smooth-scroll" href="#top">Omar Hadary</a> <a class="button-collapse" data-activates="mobile-demo" href="#"><i class="fa fa-bars fa-lg"></i></a>
 				<ul class="right hide-on-med-and-down">
 					<li>
 						<a class="smooth-scroll" href="#about">About</a>
@@ -29,7 +30,6 @@
 					<li>
 						<a class="waves-effect waves-light" href="#contact-modal">Contact</a>
 					</li>
-					<li></li>
 				</ul>
 			</div>
 		</nav>
@@ -49,7 +49,6 @@
 				<li>
 					<a class="waves-effect waves-light" href="#contact-modal">Contact</a>
 				</li>
-				<li></li>
 			</ul>
 		</div>
 		<div id="top"></div><br>
@@ -72,17 +71,13 @@
 		<div id="about"></div><br>
 		<br>
 		<br>
-		<br>
-		<br>
-		<br>
-		<br>
 		<div class="row about">
 			<div class="col s6 offset-s3 m4 l4"><img alt="Portfolio Image" class="headShot"src="assets/img/headShot.jpg"></div>
 			<div class="col s12 m8 l8 about-line">
-				<p>I have a financial services background and spent the past nine years working with senior management from across the world to launch and grow two successful mortgage lending startups. I have a solid track record working in progressively more responsible positions across client relationship management, operations and credit risk.</p>
+				<p>I am a passionate and well-rounded web developer wit a financial services background. I spent the past nine years working with senior management from across the world to launch and grow two successful mortgage lending startups. I have a solid track record working in progressively more responsible positions across client relationship management, operations and credit risk.</p>
 				<p>I am launching my career in web development using skills gained in browser based technologies, deployment, quality assurance, databases and server side development. I am able to build professional and responsive full stack web applications from initiation to design, development, test and launch.</p>
-				<p>I like learning new technologies and tools, following proven application design principles and trying to break my code.</p>
-				<p>I grew up in Southern California along the Foorhills of the San Gabriel Mountains. I enjoy Snowboarding, Boogie Boarding, Squash and always look forward to the next warm-water dive.</p>
+				<p>I like learning new technologies and tools, following proven application design patterns and trying to break my code.</p>
+				<p>I grew up in Los Angeles along the Foothills of the San Gabriel Mountains. I enjoy Snowboarding, Boogie Boarding, Squash and always look forward to the next warm-water dive.</p>
 			</div>
 		</div><br>
 		<br>
@@ -101,8 +96,8 @@
 					<div id="portfolio-1">
 						<div class="card dark-bg">
 							<span class="card-title">Tukio</span>
-							<p>Tukio is an app that allows authenticated users to search event tickets through Eventful API, save events of their choice and commit to buy discounted tickets for those events. A progress bar dynamically updates as users commit to buy tickets for the events.</p>
-							<p>Follows an MVC design pattern. Uses React to render HTML. Uses Node and MYSQL/Sequelize to query data. Uses Webpack module bundler.</p>
+							<p>Tukio is a full-stack web application that allows authenticated users to search event tickets through the Eventful API, save events of their choice and commit to buy discounted tickets for those events. A progress bar dynamically updates as users commit to buy tickets for the events.</p>
+							<p>Tech used - React.js, JSON Web Token, bcrypt, Eventful and Google Maps API's, MYSQL/Sequelize, Webpack, Bootstrap, Node.js Express Framework, Heroku.</p>
 							<div class="links">
 								<a href="https://tukio-webapp.herokuapp.com/" target="_blank"><i class="fa fa-desktop"></i> Launch App</a> | <a href="https://github.com/omarhadary/tukio" target="_blank"><i class="fa fa-code"></i> Open in Github</a>
 							</div>
@@ -114,7 +109,7 @@
 						<div class="card dark-bg">
 							<span class="card-title">GoFridge</span>
 							<p>GoFridge is a full stack web application which allows users to enter their grocery shopping list, with shopping items, latest purchase price and purchase frequency.</p>
-							<p>Follows an MVC design pattern. Leverages Node.js Express Framework server. MySQL with the Sequelize ORM library. Handlebars to generate HTML</p><!--<br>-->
+							<p>Tech Used – Handlebars, MySQL/Sequelize, Materialize, JQuery, MVC design pattern, Node.js Express Framework, Heroku.</p>
 							<div class="links">
 								<a href="https://gofridge.herokuapp.com/" target="_blank"><i class="fa fa-desktop"></i> Launch App</a> | <a href="https://github.com/omarhadary/GoFridge" target="_blank"><i class="fa fa-code"></i> Open in Github</a>
 							</div>
@@ -127,8 +122,8 @@
 					<div id="portfolio-3">
 						<div class="card dark-bg">
 							<span class="card-title">Latest News</span>
-							<p>Latest-News is a web app that lets users leave comments on the latest news on NPR. Articles are populated using Cheerio and saved to a Mongo DB.</p>
-							<p>Follows an MVC design pattern. Uses Node and Mongo to query and route data. Uses Handlebars to generate HTML. Uses Mongoose to query database. Heroku for deployment.</p><!--<br>-->
+							<p>Latest-News is a full-stack web application that scrapes NPR.org and saves latest news articles in a NoSQL database. Users can add/delete comments against these articles. Articles are populated using Cheerio and saved to a Mongo DB.</p>
+							<p>Tech used - Cheerio npm to scrape web pages, MongoDB/Mongoose, Handlebars, Bootstrap, JQuery, MVC design pattern, Node.js Express framework, Heroku.</p>
 							<div class="links">
 								<a href="https://latest-news.herokuapp.com/" target="_blank"><i class="fa fa-desktop"></i> Launch App</a> | <a href="https://github.com/omarhadary/Latest-News" target="_blank"><i class="fa fa-code"></i> Open in Github</a>
 							</div>
@@ -139,8 +134,8 @@
 					<div id="portfolio-4">
 						<div class="card dark-bg">
 							<span class="card-title">CityTrek</span>
-							<p>City Trek is a web application which allows users to lookup weather conditions and map their favourite destinations.</p>
-							<p>Leverages Mapbox and Wunderground Weather APIs. Firebase to store user login details and searches.Materialize CSS framework. Utilizes Moment.js</p><!--<br>-->
+							<p>City Trek is a full stack web application which allows users to lookup weather conditions and map their top destinations.</p>
+							<p>Tech used - Mapbox and Wunderground Weather API's, Firebase to store user login details and searches, Materialize CSS framework, Utilizes Moment.js</p>
 							<div class="links">
 								<a href="https://city-trek.herokuapp.com/" target="_blank"><i class="fa fa-desktop"></i> Launch App</a> | <a href="https://github.com/omarhadary/CityTrek" target="_blank"><i class="fa fa-code"></i> Open in Github</a>
 							</div>
@@ -153,8 +148,8 @@
 					<div id="portfolio-5">
 						<div class="card dark-bg">
 							<span class="card-title">LIRI Node App</span>
-							<p>LIRI is a Language Interpretation and Recognition Interface. It is a command line node app that takes in parameters, queries APIs and gives back data.</p>
-							<p>Leverages Twitter, Spotify and OMDB APIs. Utilizes Request NPM package</p>
+							<p>LIRI is a Language Interpretation and Recognition Interface. It is a command line Node.js application that takes in parameters, queries API's and gives back data.</p>
+							<p>Tech used - Leverages Twitter, Spotify and OMDB API's, Utilizes Node.js and Request NPM package.</p>
 							<div class="links">
 								<a href="https://github.com/omarhadary/liri-node-app" target="_blank"><i class="fa fa-code"></i> Open in Github</a>
 							</div>
@@ -166,7 +161,7 @@
 						<div class="card dark-bg">
 							<span class="card-title">Crystals Collector</span>
 							<p>Crystals Collector is an interactive web browser game. The app dynamically updates HTML pages with the jQuery library.</p>
-							<p>Leverages JQuery Library. Utilizes Bootstrap Framework. Google Fonts for customizing.</p>
+							<p>Tech used - Leverages Bootstrap Framework, JQuery, Google Fonts for customizing.</p>
 							<div class="links">
 								<a href="https://omarhadary.github.io/CrystalsCollector/" target="_blank"><i class="fa fa-desktop"></i> Launch App</a> | <a href="https://github.com/omarhadary/CrystalsCollector" target="_blank"><i class="fa fa-code"></i> Open in Github</a>
 							</div>
